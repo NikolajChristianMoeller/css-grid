@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 30vh 10vh;
+    gap: 2vw;
+}
+
+.grid-container article {
+    background-color:yellowgreen;
+    
+}
+
+@media(min-width: 600px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1200px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
